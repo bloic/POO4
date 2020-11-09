@@ -68,10 +68,7 @@ class Cars extends Vehicle
     /**
      * @return bool
      */
-    public function isHasParkBrake(bool $hasParkBrake) : bool
-    {
-        return $this->hasParkBrake;
-    }
+
     public function getHasParkBrake()
     {
         return $this->hasParkBrake ;
